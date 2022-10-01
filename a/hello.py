@@ -2,6 +2,7 @@ import redis
 from redis.exceptions import ConnectionError
 import tornado.ioloop
 import tornado.web
+from collections.abc import MutableMapping
 
 import os
 from sys import exit
